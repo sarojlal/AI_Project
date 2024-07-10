@@ -1,1 +1,1 @@
-AI Project - Stock Market Prediction and Trend Analysis
+## AI Project - Stock Market Prediction and Trend Analysis
