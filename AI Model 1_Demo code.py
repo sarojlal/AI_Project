@@ -1,3 +1,11 @@
+#!/usr/bin/env python
+# coding: utf-8
+
+# # AI Model 1 Demo & Deployment Code Using Streamlit: Predicting Nasdaq Price for Next 30 Days
+
+# In[ ]:
+
+
 import numpy as np
 import pandas as pd
 import yfinance as yf
@@ -150,3 +158,4 @@ else:
                 st.pyplot(plt)
         else:
             st.error("No data available for the selected ticker.")
+

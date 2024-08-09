@@ -1,3 +1,11 @@
+#!/usr/bin/env python
+# coding: utf-8
+
+# # AI Model 2 Demo & Deployment Code Using Streamlit: Predicting Stock Market Trend
+
+# In[ ]:
+
+
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
@@ -170,4 +178,5 @@ else:
             # Accuracy Score
             accuracy = accuracy_score(y, y_pred_best)
             st.write(f"Accuracy Score: {accuracy:.4f}")
+
 
